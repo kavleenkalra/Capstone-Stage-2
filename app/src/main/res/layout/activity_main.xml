@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.android.eventasy.ui.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:elevation="@dimen/app_bar_elevation">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:src="@drawable/app_logo"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:paddingStart="@dimen/app_bar_left_padding"
+            android:paddingEnd="@dimen/app_bar_right_padding"
+            android:paddingLeft="@dimen/app_bar_left_padding"
+            android:paddingRight="@dimen/app_bar_right_padding"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:fitsSystemWindows="true"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:scaleType="center"
+        app:srcCompat="@drawable/ic_menu_black_36dp"
+        android:contentDescription="@string/menu_button"/>
+
+    <!-- Layout for dimming the screen on displaying the fab sheet-->
+    <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/fab_sheet"/>
+
+</android.support.design.widget.CoordinatorLayout>

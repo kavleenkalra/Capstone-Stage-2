@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Eventasy</string>
+
+    <!-- Actions -->
+    <string name="action_menu">Menu</string>
+    <string name="action_place">Place</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_favourite">Favourite</string>
+
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="categories">Categories</string>
+    <string name="favourites">Favourites</string>
+    <string name="events">Events</string>
+    <string name="search_results">Search Results</string>
+    <string name="details">Details</string>
+    <string name="description">Description</string>
+    <string name="event_link">Eventful Link</string>
+
+    <!-- Search related strings -->
+    <string name="search_hint">Search Events by name, tags etc.</string>
+    <string name="search_screen_text">You can search events by names, performers, tags, venues etc.</string>
+
+    <!-- Toast Messages -->
+    <string name="favourite_added">Event has been added to Favourites</string>
+    <string name="favourite_removed">Event has been removed from Favourites</string>
+    <string name="map_intent_message">App not available to locate place on map.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_event_detail">EventDetailActivity</string>
+
+    <!-- Preference Related Strings -->
+    <string name="location_category">Location</string>
+    <string name="filter_category">Filters</string>
+    <string name="change_location">Change Location</string>
+    <string name="change_location_summary">Discover events in a particular location</string>
+    <string name="default_location" translatable="false">india</string>
+    <string name="sort_by">Sort results by</string>
+    <string name="default_sort_by" translatable="false">relevance</string>
+    <string name="search_radius">Radius</string>
+    <string name="search_radius_summary">Discover events within a specific radius</string>
+    <string name="default_search_radius">50</string>
+    <string name="pref_location_key" translatable="false">prefLocation</string>
+    <string name="pref_sort_by_key" translatable="false">prefSortBy</string>
+    <string name="pref_radius_key" translatable="false">prefRadius</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Data Related Strings -->
+    <string name="no_data_available">No Data Available.</string>
+    <string name="no_network_available">Network not available.</string>
+    <string name="error_fetching_data">Error while fetching Data. Try later.</string>
+    <string name="no_results_found">No Results found.</string>
+    <string name="description_not_available">Description Not Available.</string>
+
+    <!-- Some Content Descriptions-->
+    <string name="menu_button">Menu</string>
+    <string name="remove_from_favourites">Remove from Favourites</string>
+    <string name="go_back_main_screen">Go Back to the main screen</string>
+    <string name="go_back_categories_screen">Go Back to the categories screen</string>
+    <string name="go_back_previous_screen">Go Back to the previous screen</string>
+    <string name="go_back_event_list_screen">Go Back to the event list screen</string>
+    <string name="location_on_map">Locate Venue on Map</string>
+
+    <!-- Widget Related Strings -->
+    <string name="widget_title">Eventasy Events</string>
+    <string name="no_favourites_added">No Favourites Added</string>
+    <string name="talk_back_event_name">The event title is</string>
+    <string name="talk_back_event_date">The event date is</string>
+
+    <!-- Ad unit id -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

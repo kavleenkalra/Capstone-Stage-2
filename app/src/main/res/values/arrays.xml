@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="sort_by_options">
+        <item>Popularity</item>
+        <item>Date</item>
+        <item>Relevance</item>
+    </string-array>
+
+    <string-array name="sort_by_values">
+        <item>popularity</item>
+        <item>date</item>
+        <item>relevance</item>
+    </string-array>
+
+    <string-array name="search_radius_options">
+        <item>10 miles</item>
+        <item>30 miles</item>
+        <item>50 miles</item>
+        <item>70 miles</item>
+        <item>100 miles</item>
+    </string-array>
+
+    <string-array name="search_radius_values">
+        <item>10</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+    </string-array>
+
+</resources>

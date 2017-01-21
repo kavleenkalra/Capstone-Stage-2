@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/location_category">
+
+        <EditTextPreference
+            android:title="@string/change_location"
+            android:summary="@string/change_location_summary"
+            android:key="@string/pref_location_key"
+            android:defaultValue="@string/default_location"
+            android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/filter_category">
+
+        <ListPreference
+            android:title="@string/sort_by"
+            android:entries="@array/sort_by_options"
+            android:entryValues="@array/sort_by_values"
+            android:key="@string/pref_sort_by_key"
+            android:defaultValue="@string/default_sort_by">
+
+        </ListPreference>
+
+        <ListPreference
+            android:title="@string/search_radius"
+            android:summary="@string/search_radius_summary"
+            android:entries="@array/search_radius_options"
+            android:entryValues="@array/search_radius_values"
+            android:key="@string/pref_radius_key"
+            android:defaultValue="@string/default_search_radius">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

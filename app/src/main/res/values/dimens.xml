@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+
+    <!-- Margins for views-->
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="margin_left">7dp</dimen>
+    <dimen name="margin_right">7dp</dimen>
+    <dimen name="event_detail_card_margin">7dp</dimen>
+    <dimen name="event_detail_text_margin">14dp</dimen>
+
+    <!-- Card View Dimensions-->
+    <dimen name="card_view_elevation">5dp</dimen>
+    <dimen name="card_view_corner_radius">5dp</dimen>
+    <dimen name="card_view_content_padding_left">10dp</dimen>
+    <dimen name="card_view_content_padding_top">10dp</dimen>
+    <dimen name="card_view_content_padding_bottom">10dp</dimen>
+
+    <dimen name="fab_sheet_width">180dp</dimen>
+    <dimen name="fab_sheet_height">130dp</dimen>
+
+    <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="app_bar_height">128dp</dimen>
+    <dimen name="app_bar_left_padding">24dp</dimen>
+    <dimen name="app_bar_right_padding">24dp</dimen>
+
+    <!-- Widget Dimensions -->
+    <dimen name="widget_default_height">110dp</dimen>
+    <dimen name="widget_default_width">120dp</dimen>
+
+</resources>
