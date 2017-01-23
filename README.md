@@ -1,0 +1,1 @@
+This project is the final project of Udacity's Android Developer Nanodegree. The project is based on the idea of showing the users information about various events depending upon the location they have chosen.
